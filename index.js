@@ -1,22 +1,26 @@
-<script>
+
+
+//if -- else if
 /*
-var age=25;
+var age=19;
 if(age>=20){
     console.log('you are audelt');
 }else{
     console.log('you are child');
 }
 
-// if-- else if--- else if--- else
-var mark=95;
+
+// if - else if -- else if -- else if -- else
+
+var mark=50;
 
 if(mark >=80 && mark<=100){
     console.log('A+');
 }
-else if(mark >=70 && mark <80){
+else if(mark >=70 && make <80){
     console.log('A')
 }
-else if(mark >=60 && mark <70){
+else if(mark >=60 && make <70){
     console.log('B')
 }
 else if(mark >=50 && mark <60){
@@ -25,6 +29,8 @@ else if(mark >=50 && mark <60){
 else{
     console.log('F')
 }
+
+
 
 // sitch methods
 var mark = 56;
@@ -68,6 +74,7 @@ do{
     i=i+1
 }while(i<10)
 
+
 // function
 function numberone(){
     let num1= 30;
@@ -87,6 +94,7 @@ function numbertwo(){
 numberone();
 numbertwo();
 
+
  //function parameter 
 
  function numbertwo(a,b,c){
@@ -99,6 +107,8 @@ numbertwo();
 
 numbertwo(500,300,200);
 
+*/
+
 // function return 
 function numberone(a,b){
     let num1= a;
@@ -109,12 +119,3 @@ function numberone(a,b){
 
 let total=numberone(200,300)+200+100;
 console.log(total);
-
-*/
-
-
-
-
-
-
-</script>
