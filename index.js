@@ -107,7 +107,7 @@ numbertwo();
 
 numbertwo(500,300,200);
 
-*/
+
 
 // function return 
 function numberone(a,b){
@@ -119,3 +119,7 @@ function numberone(a,b){
 
 let total=numberone(200,300)+200+100;
 console.log(total);
+
+*/
+
+console.log({name:"sdjhfj"}.name)
