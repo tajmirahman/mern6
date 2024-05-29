@@ -1,6 +1,7 @@
 
 
-let string = "i am fall in love with java script language";
+let string = "i fell in love with java script language";
+// console.log(string.split(""))
 
 function calculateVowel(text) {
     let count = 0;
