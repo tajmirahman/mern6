@@ -120,6 +120,17 @@ function numberone(a,b){
 let total=numberone(200,300)+200+100;
 console.log(total);
 
-*/
+
 
 console.log({name:"sdjhfj"}.name)
+
+*/
+
+
+let text = "djfhdsjfsa"
+let myArr = Array.from(text);
+
+
+console.log(myArr[4]);
+
+

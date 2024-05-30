@@ -1,5 +1,5 @@
 /*
-// Use of at() Array
+////////////////    Use of at() Array ///////////////////
 
 // const fruits= ['banana','orange','mango','apple'];
 const fruits= ['0','1','2','3'];
@@ -7,7 +7,7 @@ let fruit= fruits[2];
 
 // console.log(fruit);
 
-//use of concat() array
+///////////////////       use of concat() array           ///////////////
 
 const arr1=['namdm','asif'];
 const arr2= ['rubel','hassan'];
@@ -25,7 +25,7 @@ console.log(include);
 
 
 
-//use of array().form 
+///////////////////          use of array().form      /////////////
 
  
 let Title="i love my self";
@@ -38,5 +38,91 @@ console.log(TitleArray);
 
 let string = "i fell in love with java script language";
 console.log(string.split(""))
+
+
+///////////////////     Array.from use     ////////////////
+
+let text = "ABCDEFG"
+const myArr = Array.from(text);
+
+console.log(myArr);
+
+let title = "ABCDEFG"
+const myArrTitle = Array.from(title);
+
+console.log(myArrTitle[4]);
+
+
+///////////////////     .filter use of array     ////////////////
+
+
+var number=[20,25,35,45,80,55,75,65,95];
+
+var itemNum= number.filter(function(item){
+
+    return item<=40;
+
+});
+
+console.log(itemNum)
+
+
+
+
+///////////////////     .find && findIndex use of array     ////////////////
+
+
+var number=[1,20,25,35,45,80,55,75,65,95];
+
+var itemNum= number.find(function(item){
+
+    return item<50;
+
+});
+
+console.log(itemNum)
+
+
+var number=[20,25,35,45,80,55,75,65,95];
+
+var itemNum= number.findIndex(function(item){
+
+    return item>80;
+
+});
+
+console.log(itemNum)
+
+
+
+///////////////////     forEach use of array     ////////////////
+
+var number=[20,25,35,45,80,55,75,65,95];
+
+number.forEach(function(item){
+
+    console.log(item)
+
+});
+
+
+///////////////////     include and indexOf use of array     ////////////////
+
+var number=[20,25,35,45,80,55,75,65,95];
+
+    var result= number.includes(50);
+
+    // console.log(result);
+
+
+
+    var number=[20,25,35,45,80,55,75,65,95];
+
+    var result= number.indexOf(80);
+
+    console.log(result);
+
 */
+
+
 
