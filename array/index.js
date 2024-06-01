@@ -167,3 +167,8 @@ number.splice(3,1,21)
  */
 
  ///////////////////     splice use of array     ////////////////
+
+
+ var num= 7.24;
+ var result= Number.parseInt(num);
+ console.log(result);
