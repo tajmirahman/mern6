@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p></p>
+    <button onclick="demo()">Click</button>
+
+
+    <!-- <script>
+        function demo(){
+            var info= document.lastModified;
+            document.getElementsByTagName('p')[0].innerHTML=info;
+        }
+    </script> -->
+
+    <!-- for replace DOM-->
+
+    <script>
+        function demo(){
+            document.open();
+            document.write('<h2>amar name</h2>');
+            document.close();
+        }
+    </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 class="myclass"> </h1>
+    <h4 class="myclass"> </h4>
+    <button class="myclass"> </button>
+
+    <script>
+
+
+       let idEvents= document.getElementsByClassName("myclass");
+        idEvents[0].innerHTML= 'This is heading one'
+        idEvents[1].innerHTML= 'This is heading two'
+        idEvents[2].innerHTML= 'This is Button'
+
+    </script>
+
+    <h1 id="myId"> </h1>
+
+    <script>
+        let myEvent= document.getElementById("myId");
+        myEvent.innerHTML= "this is id"
+    </script>
+
+        <h1 name="myName"> </h1>
+        <h4 name="myName"> </h4>
+        <button name="myName"> </button>
+
+        <script>
+
+
+        let myEventCalss= document.getElementsByName("myName");
+
+        myEventCalss[0].innerHTML= 'This is Class heading'
+        myEventCalss[1].innerHTML= 'This is Class heading'
+        myEventCalss[2].innerHTML= 'This is Class Button'
+
+        </script>
+
+        <p>p1</p>
+        <p>p2</p>
+        <p>p3</p>
+
+
+        <script>
+            let myEventTags= document.getElementsByTagName('p')
+  
+
+            myEventTags[0].innerHTML= "this is p1 Tag"
+            myEventTags[1].innerHTML= "this is p2 Tag"
+            myEventTags[2].innerHTML= "this is p3 Tag"
+  
+
+        </script>
+
+
+
+</body>
+</html>
