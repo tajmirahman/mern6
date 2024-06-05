@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector</title>
+</head>
+
+<body>
+
+    <h1 id="myId">h1</h1>
+    <h5 class="myClass">h5</h5>
+    <p name="myName">p</p>
+    <h6></h6>
+
+    <button onclick="changeItem()">change</button>
+
+    <script>
+
+        function changeItem() {
+            document.querySelector('#myId').innerHTML = "h1 Element";
+            document.querySelector('.myClass').innerHTML = "h5 element";
+            document.querySelector('p[name="myName"]').innerHTML = 'p element';
+            document.querySelector('h6').innerHTML = 'h6 element'
+        }
+
+    </script>
+
+</body>
+
+</html>

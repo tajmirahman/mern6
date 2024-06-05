@@ -11,22 +11,46 @@
     <button onclick="demo()">Click</button>
 
 
-    <!-- <script>
+    <script>
         function demo(){
             var info= document.lastModified;
             document.getElementsByTagName('p')[0].innerHTML=info;
         }
-    </script> -->
+    </script>
 
     <!-- for replace DOM-->
 
+    <p></p>
+    <button onclick="demoChange()">Click</button>
+
     <script>
-        function demo(){
+        function demoChange(){
             document.open();
             document.write('<h2>amar name</h2>');
             document.close();
         }
     </script>
+
+
+    <p>open new tab</p>
+
+    <button onclick="newTab()">click</button>
+
+    <script>
+        function newTab(){
+            open();
+        }
+    </script>
+
+
+    <p>close current tab</p>
+        <button onclick="newTab()">click</button>
+
+        <script>
+            function newTab(){
+                close();
+            }
+        </script>
 
 
 

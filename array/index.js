@@ -164,7 +164,7 @@ number.splice(3,1,21)
 
  console.log(number);
 
- */
+
 
  ///////////////////     splice use of array     ////////////////
 
@@ -172,3 +172,9 @@ number.splice(3,1,21)
  var num= 7.24;
  var result= Number.parseInt(num);
  console.log(result);
+ */
+
+ let number1= 100;
+let number2= 50;
+let percentageDifference= (number1/number2)*100;
+console.log(percentageDifference);
