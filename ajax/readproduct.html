@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Read</title>
+</head>
+<body>
+
+    <button onclick="ReadProduct()">Read Product</button>
+
+
+    <script>
+        async function ReadProduct(){
+            let Data= await fetch("https://crud.teamrabbil.com/api/v1/ReadProduct");
+            let JsonData= await Data.json();
+            console.log(JsonData);
+        }
+
+        ReadProduct();
+
+    </script>
+    
+</body>
+</html>

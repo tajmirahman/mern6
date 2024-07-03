@@ -1,0 +1,13 @@
+1. read product
+https://crud.teamrabbil.com/api/v1/ReadProduct
+
+2. Create product
+    https://crud.teamrabbil.com/api/v1/CreateProduct
+
+3. delete product
+    https://crud.teamrabbil.com/api/v1/DeleteProduct/6667f1966d110f694d44b046
+
+    when i create a delete url must be needed id;
+
+4. update product
+https://crud.teamrabbil.com/api/v1/UpdateProduct/6667d7c26d110f694d44af78

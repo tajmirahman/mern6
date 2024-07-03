@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Product</title>
+</head>
+<body>
+
+    <button onclick="createProduct()">Create Product</button>
+
+    <script>
+
+        async function createProduct(){
+
+            let url= "https://crud.teamrabbil.com/api/v1/CreateProduct";
+
+            let rawData= {
+
+                "ProductName":"Arshan",
+                "ProductCode":"abc7643",
+                "Img":"arshar123",
+                "UnitPrice":"1530",
+                "Qty":"155",
+                "TotalPrice":"2000"
+
+            }
+
+            let requestDetails= {
+                method: 'POST',
+                body: JSON.stringify(rawData),
+            }
+
+            let data= await fetch(url,requestDetails);
+            let jsonData= await data.json();
+
+            console.log(jsonData);
+
+
+        }
+
+
+    </script>
+    
+
+
+
+</body>
+</html>
